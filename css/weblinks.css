@@ -1,0 +1,39 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+span {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.link {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.button
+{
+	margin-bottom: 10px;
+	margin-top: 10px; 
+}
+
+.ceva
+{
+	margin-bottom: 10px;
+	margin-top: 10px; 
+	display : none;
+}
+.hidden {
+        display: none;
+}
+.visible {
+        display: block;
+		margin-bottom: 10px;
+	    margin-top: 10px;
+		
+   }
+   

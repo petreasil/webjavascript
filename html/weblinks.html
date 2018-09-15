@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/weblinks.css">
+    <title>Activity</title>
+</head>
+
+<body>
+    <h1>Activity</h1>
+
+    <button id="reveal"  onclick="hide()" class="button">Add Link</button>
+	<form id="lista" class="ceva">
+	<label for="title">title</label> :
+		<input type="text" name="title" id="title" required>
+		<label for="URL">URL</label> :
+		<input type="text" name="URL" id="URL" required>
+		<label for="Author">Author</label> :
+		<input type="text" name="Author" id="Author" required>
+		<input type="button" onclick="transmite()"  id="addButton" value="add">
+	</form>
+	
+    <div id="content">
+    </div>
+
+    <script src="../js/weblinks.js"></script>
+</body>
+
+</html>
